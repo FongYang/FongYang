@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://fongyang.github.io/FongYang/Index</loc>
+  <lastmod>2024-04-25T12:11:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://fongyang.github.io/FongYang/Index.html</loc>
+  <lastmod>2024-04-25T12:11:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fongyang.github.io/FongYang/About%20us.html</loc>
+  <lastmod>2024-04-25T12:11:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fongyang.github.io/FongYang/service.html</loc>
+  <lastmod>2024-04-25T12:11:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fongyang.github.io/FongYang/product.html</loc>
+  <lastmod>2024-04-25T12:11:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://fongyang.github.io/FongYang/Contact%20us.html</loc>
+  <lastmod>2024-04-25T12:11:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
