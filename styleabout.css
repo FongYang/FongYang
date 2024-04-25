@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Hamburgar {
+    position:reletive;
+    display: none;
+    font-size: 25px;
+    margin-left:10px;
+    width:45px;
+    height: 80px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.Hamburgar .bar, .Hamburgar:after, .Hamburgar:before {
+    content:'';
+    display: block;
+    width:80%;
+    height: 5px;
+    background-color:rgb(58, 57, 57);
+    margin:6px 6px;
+    transition:0.4s;
+}
+.Hamburgar.is-active:before {
+    transform: rotate(-45deg) translate(-8px, 6px);
+
+}
+.Hamburgar.is-active:after {
+    transform:rotate(45deg) translate(-9px, -8px);
+}
+.Hamburgar.is-active .bar {
+    opacity: 0;
+}
+
+.mobile-nav {
+    position: fixed;
+    top: 12%;
+    right: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display:block;
+    z-index: 98;
+    background-color:rgba(244, 244, 244, 0.8);
+    padding-top: 120px;
+    transition: 0.4s;
+}
+
+.mobile-nav.is-active {
+    right: 0;
+}
+
+.mobile-nav a {
+        display:block;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto 16px;
+        text-align: center;
+        padding:12px 16px;
+        background-color: rgb(0, 59, 45, 0.8);
+        color: whitesmoke;
+        text-decoration: none;
+
+
+}
+
+
+.mobile-nav a:hover {
+    background: rgb(62, 115, 102);
+    text-decoration: underline;
+}
+
+header {
+    background-color:rgb(245, 245, 245, 0.8);
+    height:80px;
+    width:100%;
+    position:fixed;
+}
+
+
+header h1 {
+    position:absolute;
+    left: 5vw;
+    line-height: 120px;
+    background-image:url(image/logomain.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    width:210px;
+    text-indent: -9999px;
+}
+header a {
+    color: black;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header li {
+    display:inline;
+    margin-right:4vw;
+}
+header ul {
+    position:absolute;
+    right:1vw;
+    top:0vw;
+    line-height: 80px;
+    font-size: 15px;
+}
+
+header img {
+    display: block;
+    width:100%;
+    object-fit: cover;
+    height: 35vh;
+}
+
+.slogan {
+    background-color: rgb(245, 245, 245);
+    color:white;
+    height: 60vh;
+    background-image: url("image/title2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    line-height:1.8em;
+}
+
+.contact1 {
+    color:rgb(0, 0, 0);
+    height:80px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    font-size: 20px;
+    margin: 15px 8%;
+    text-align: left;
+    border: 1px solid #ACACAC;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+}
+
+.content {
+    display:flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content p {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 1.6em;
+    text-align: left;
+    width: 600px;
+    height: 400px;
+}
+
+.content1 {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:100px;
+}
+.content1 img{
+    margin:100px;
+    display:block;
+    flex-direction:column;
+}
+
+
+
+
+
+.Quotation {
+    background: rgb(0, 59, 45);
+    color:#ACACAC;
+    padding: 60px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.Quotation p {
+    Margin-bottom: 20px;
+}
+
+.Quotation input, .Quotation button {
+    background-color: transparent;
+    color:white;
+    border: 1px solid #949d9a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Quotation input {
+    width:200px;
+    margin-right:15px;
+}
+
+.Quotation button {
+    width: 80px;
+    cursor:pointer;
+}
+
+input::placeholder {
+    color:#DDDDDD;
+}
+
+input:focus {
+    outline:none;
+    border-color:#ede9ed;
+}
+
+
+
+footer .info {
+    background-color: rgb(0, 59, 45);
+    color:white;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid rgb(181, 181, 181);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+
+}
+footer .copyright {
+    background-color: rgb(0, 59, 45);
+    color:rgb(181, 181, 181);
+    height:60px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+
+footer .info {
+    color: white;
+    font-size: 20px;
+    justify-content:left;
+    align-items: left;
+}
+
+footer a {
+    color: white;
+    font-size:14px;
+    display:flex;
+    flex-direction:column;
+    text-decoration: none;
+    margin:5px 0;
+    margin-left:5px 0;
+}
+footer a:hover {
+    text-decoration: underline;
+    }
+footer li {
+    display:inline;
+    margin-right:1vw;
+}
+
+
+
+
+/* 響應式設計語法 */
+@media screen and (max-width: 1350px){
+    .content {
+        flex-direction: column;
+        padding: 100px;
+        align-items: CENTER;
+
+    } 
+
+
+
+}
+
+@media screen and (max-width: 1150px){
+    
+    .Hamburgar {
+        display:block;
+    }
+
+    
+    
+    header ul {
+        display: none;
+    }
+    header h1 {
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .introduce {
+        height:350px;
+    }
+    .Quotation input, .Quotation button {
+        display:flex;
+        flex-direction: column;
+        margin-top:10px;
+    }
+
+}
+@media screen and (max-width: 600px){
+.slogan {
+    font-size: 25px;
+}
+.contact1 {
+    align-items: CENTER;
+    border-bottom:none;
+}
+
+.content {
+    margin-right: 0;
+    margin-left: 10%;
+}
+.content .map {
+
+    margin-right:80%;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
+
+
+}
