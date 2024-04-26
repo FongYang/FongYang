@@ -4,12 +4,12 @@
 }
 
 .Hamburgar {
-    position:reletive;
+    position:relative;
     display: none;
-    font-size: 25px;
-    margin-left:10px;
-    width:45px;
-    height: 80px;
+    font-size: 1.5em;
+    margin-left:0.5em;
+    width:2em;
+    height: 3em;
     cursor: pointer;
     background: none;
     border: none;
@@ -19,7 +19,7 @@
     content:'';
     display: block;
     width:80%;
-    height: 5px;
+    height: 0.2em;
     background-color:rgb(58, 57, 57);
     margin:6px 6px;
     transition:0.4s;
@@ -55,7 +55,7 @@
 .mobile-nav a {
         display:block;
         width: 100%;
-        max-width: 200px;
+        max-width: 500px;
         margin: 0 auto 16px;
         text-align: center;
         padding:12px 16px;
